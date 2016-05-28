@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng http://purl.oclc.org/dsdl/schematron?>
+<!--
+Data from JEDS inventory: 
+- - - - - - - - - 
+[1] K. : 169
+[2] Ext. : -
+[3] Ind. : -
+[4] Autre(s) n° : -
+[5] Pays : Cambodge
+[6] Province : Siem Reap
+[7] Lieu d’origine : Chikreng (Pr.) (Ouest)
+[8] Situation actuelle : Inconnue
+[9] Type : Stèle
+[10] Détails : Ruinée
+[11] Matériau : 
+[12] Nb de lignes : 12
+[13] Langue : Khmer
+[14] Date śaka : Xe-XIe
+[15] Estampages EFEO 1 : 884
+[16] Estampages EFEO 2 : 
+[17] Estampages EFEO 3 : 
+[18] Estampages EFEO 4 : 
+[19] Estampages EFEO 5 : 
+[20] Estampages EFEO 6 : 
+[21] Estampages EFEO 7 : 
+[22] Estampages BNF 1 : 166 (19)
+[23] Estampages BNF 2 : 
+[24] Estampages BNF 3 : 
+[25] Estampages BNF 4 : 
+[26] Autres Estampages : -
+[27] Éditions/traductions 1 : 
+[28] Éditions/traductions 2 : 
+[29] Éditions/traductions 3 : 
+[30] Éditions/traductions 4 : 
+[31] Éditions/traductions 5 : 
+[32] Éditions/traductions 6 : 
+[33] Photographies : 
+--><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en"><teiHeader><fileDesc><titleStmt><title>K. 169_Khmer_312<!-- [to be completed] --></title></titleStmt><publicationStmt><authority>Visible Words 2016</authority><idno type="filename">K_169_Khmer_312.xml</idno><availability><licence><p><!-- copyright and licence information here --></p></licence></availability></publicationStmt><sourceDesc><msDesc><msIdentifier><repository><!-- museum/archive -->
+[to be completed]</repository><idno>K. 169_Khmer_312</idno></msIdentifier><physDesc><objectDesc><supportDesc><support><!-- description of object/monument (likely to include <material/> and <objectType/> information, <dimensions/>, etc.) --><p>Stèle ; Ruinée</p></support></supportDesc><layoutDesc><!-- <layout>description of text field/campus</layout> --><layout>12</layout></layoutDesc></objectDesc><handDesc><handNote><!-- description of letters, possibly including <height>letter-heights</height> --></handNote></handDesc><decoDesc><decoNote><!-- description of decoration or iconography --></decoNote></decoDesc></physDesc><history><origin><origPlace>Chikreng (Pr.) (Ouest)</origPlace><origDate type="śaka">Xe-XIe</origDate></origin><provenance type="found"><!-- Findspot and circumstances/context --><!-- [to be completed] --></provenance><provenance type="observed"><!-- Modern location(s) (if different from repository, above); is used to encode information about subsequent modern observation -->
+Inconnue</provenance><provenance type="not-observed"><!-- information about a specific, unsuccessful attempt to locate an object in a presumed or previously recorded location --></provenance><provenance type="transferred"><!-- information about documentable modern relocations of the text-bearing object --></provenance></history><additional><surrogates><msDesc><msIdentifier><repository>EFEO</repository><idno>884</idno></msIdentifier></msDesc><msDesc><msIdentifier><repository>BNF</repository><idno/></msIdentifier></msDesc><msDesc><msIdentifier><repository>Autre</repository><idno/></msIdentifier></msDesc></surrogates></additional><msPart><msIdentifier/><physDesc/><history/></msPart></msDesc></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en">English</language><!--Khmer--><!--
+
+								<language>
+																	
+								 <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+								</language>
+								--></langUsage><textClass><keywords><term><!--each keyword in a <term/> element --></term></keywords></textClass></profileDesc><encodingDesc><ab><!-- description of encoding (version of the Epidoc version used --></ab></encodingDesc></teiHeader><facsimile><graphic url="photograph of text or monument"><desc/></graphic></facsimile><text><body><div type="edition"><ab><!-- text here --></ab></div><div type="apparatus"><p><!-- external apparatus criticus (if applicable) --></p></div><div type="translation"><p><!-- translation(s) --></p></div><div type="commentary"><p><!-- commentary --></p></div><div type="bibliography"><!-- bibliography of previous editions, discussion, etc.-->
+</div></body></text></TEI>
