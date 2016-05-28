@@ -12,7 +12,7 @@
 4.3 enhance the data with the information you collected, expressing it and formating it so that it meets the needs of your research question.
 4.4 do whatever seems interesting in your opinion...
 
-hints :
+####hints :
 - if your oXygen is configured with the USEP framework, turn it off (ask Scott!)
 - Ext.: means "extension"
 - Ind.: means "indices"
