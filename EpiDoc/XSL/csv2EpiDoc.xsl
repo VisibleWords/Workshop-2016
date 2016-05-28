@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
+	<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet" type="stylesheet">
+		<desc>
+			<p>Stylesheet for making TEI/EpiDoc files from an xml TEI file generated from a csv file - Visible Words project - Workshop 2016 </p>
+			<p>Author: Emmanuelle Morlock</p>
+			<p>Date: 2016-05-24</p>
+		</desc>
+	</doc>
 	<xsl:output indent="yes" method="xml" encoding="UTF-8" name="xml"/>
 	<xsl:key name="source" match="row[@n = 'title']/cell[position() &lt; 34]" use="@n"/>
 	<xsl:strip-space elements="*"/>
@@ -336,6 +343,3 @@
 		</xsl:for-each>
 	</xsl:template>
 </xsl:stylesheet>
-<!-- To define: -->
-<!-- état, revoir notion "in situ", test avec zotero, test avec images
- -->
